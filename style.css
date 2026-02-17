@@ -32,6 +32,7 @@ nav {
 
 .logo img {
     height: 100%;
+    width: 100%;
     
     
 }
@@ -169,9 +170,10 @@ nav {
     margin: auto;
 }
 
-.aboutme p {
+.aboutme p b {
     margin-top: 20px;
     font-size: 18px;
+    color: crimson;
 }
 
 .aboutme ul {
@@ -218,6 +220,7 @@ nav {
 
 .skill-icons img {
     height: 100%;
+    width: 100%;
 }
 
 #my-service h2 {
