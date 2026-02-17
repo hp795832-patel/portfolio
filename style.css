@@ -217,6 +217,14 @@ nav {
     display: flex;
     justify-content: center;
 }
+.skill-icons:hover{
+    cursor: pointer;
+    transition: 1s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .skill-icons img {
     height: 100%;
@@ -302,6 +310,17 @@ nav {
     border: 1px solid crimson;
     height: 100%;
 }
+.img img:hover{
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
 
 #contact h2 {
     text-align: center;
