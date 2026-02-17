@@ -13,20 +13,27 @@ nav {
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+
+    top: 0;
+    position: sticky;
     
-  }
+    }
 
 .logo {
-    
     height: 100%;
     align-items: center;
     width: 20%;
     display: flex;
     justify-content: center;
+    
+    
+    
 }
 
 .logo img {
-    height: 90%;
+    height: 100%;
+    
+    
 }
 
 .menu {
