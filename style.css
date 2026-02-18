@@ -136,11 +136,15 @@ nav {
     /* word-spacing: 20px; */
 }
 
+
+
 .info p {
     font-size: 18px;
     line-height: 25px;
     margin-top: 5px;
 }
+
+
 
 /* About */
 #about {
@@ -214,6 +218,7 @@ nav {
     height: 150px;
     background-color:cadetblue;
     border: 2px solid rgb(182, 85, 85);
+    border-radius: 25px;
     display: flex;
     justify-content: center;
 }
@@ -229,6 +234,7 @@ nav {
 .skill-icons img {
     height: 100%;
     width: 100%;
+    border-radius: 25px;
 }
 
 #my-service h2 {
@@ -255,11 +261,13 @@ nav {
     align-items: center;
     justify-content: space-around;
     gap: 10px;
+    
 
 }
 
 .Service {
     border: 1px solid crimson;
+    border-radius: 25px;
     margin-top: 20px;
     width: 30%;
     display: flex;
@@ -273,6 +281,7 @@ nav {
     padding: 20px;
     text-align: center;
     background-color: cadetblue;
+    border-radius: 25px;
 }
 
 #latest-project h2 {
@@ -294,6 +303,7 @@ nav {
 #latest-project {
     margin: 30px auto;
     width: 80%;
+    
 }
 
 
@@ -303,12 +313,15 @@ nav {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 
 .img img {
     width: 90%;
     border: 1px solid crimson;
     height: 100%;
+    border-radius: 25px;
+
 }
 .img img:hover{
     cursor: pointer;
