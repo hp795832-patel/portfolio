@@ -5,6 +5,7 @@
     color: white;
 }
 
+
 nav {
 
     height: 70px;
@@ -434,5 +435,107 @@ footer {
     align-items: center;
     justify-content:space-evenly;
 }
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .icons {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* Hero Section */
+    #hero {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #hero .left {
+        width: 200px;
+        height: 200px;
+    }
+
+    #hero .right {
+        width: 100%;
+    }
+
+    .info h2 {
+        font-size: 28px;
+    }
+
+    /* About Skills */
+    .aboutme ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Skills Grid */
+    .skill-outer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Services */
+    .Service-outer {
+        flex-direction: column;
+    }
+
+    .Service {
+        width: 90%;
+    }
+
+    /* Projects */
+    .img {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /* Contact */
+    .contact-outer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .left,
+    .right1 {
+        width: 100%;
+    }
+
+    .right1 form input,
+    .right1 form textarea {
+        width: 100%;
+    }
+
+    .right1 form button {
+        width: 50%;
+    }
+
+    /* Footer */
+    .footer-item {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+
 
 
