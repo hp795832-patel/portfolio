@@ -10,12 +10,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
+   
+    
     <nav>
         <div class="logo">
             <img src="/Image/logo new.jpeg" alt="himanshu_logo">
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
         </div>
         <div class="menu">
             <ul>
@@ -223,6 +231,15 @@
     })();
 </script>
     <!--End of Tawk.to Script-->
+    <script>
+        const menuToggle = (document.getElementBy);
+        const menu = document.getElementById("menu");
+    
+        menuToggle.addEventListener("click", () => {
+            menu.classList.toggle("active");
+        });
+    </script>
+    
    
 </body>
 
